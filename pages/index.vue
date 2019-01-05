@@ -1,18 +1,7 @@
 <template>
 
-  <div class="grid">
-    <div class="column nav" v-bind:class="{ open : isOpen }">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Text Inputs</a></li>
-        <li><a href="#">Hyperlinks</a></li>
-        <li><a href="#">Image Gallery</a></li>
-        <li><a href="#">Buttons</a></li>
-        <li><a href="#">Heading Text</a></li>
-        <li><a href="#">Checkbox</a></li>
-        <li><a href="#">Radio Button</a></li>
-      </ul>
-    </div>
+  
+
     <div class="column content">
       <div class="hero">
         <h1 class="">motionOFthings</h1>
@@ -21,7 +10,7 @@
       </div>
       
     </div>
-  </div>
+ 
 
 </template>
 
@@ -36,7 +25,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .nav {
     grid-area: nav;
     background-color: black;

@@ -1,13 +1,9 @@
 <template>
 
-
-
   <div class="grid">
-<Nav></Nav>
-
+    <Nav></Nav>
     <nuxt/>
   </div>
-
 
 </template>
 

@@ -1,9 +1,40 @@
 <template>
 
-    <div>
-        <h1>This page is for text inputs</h1>
-    </div>
+    <div class="column content">
+      <div class="content-padding">
+        <h1 class="">Text Inputs</h1>
 
+<div class="element-grid">
+
+            <div>
+                <label for="text-input-1">First Input</label>
+                <input id="text-input-1" type="text">
+            </div>
+
+            <div>
+                <label for="text-input-1">Second Input</label>
+                <input id="text-input-1" type="text">
+            </div>
+
+            <div>
+                <label for="text-input-1">Third Input</label>
+                <input id="text-input-1" type="text">
+            </div>
+
+            <div>
+                <label for="text-input-1">Forth Input</label>
+                <input id="text-input-1" type="text">
+            </div>
+
+</div>
+
+
+
+
+
+      </div>
+      
+    </div>
   
 </template>
 
@@ -14,9 +45,17 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
-
+<style lang="scss">
+label, input {
+    display: block;
+}
+.element-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content-padding {
+    padding: 1rem;
+}
 </style>
 
 

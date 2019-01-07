@@ -19,6 +19,22 @@
             <li><a href="#">Heading Text</a></li>
             <li><a href="#">Checkbox</a></li>
             <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
+            <li><a href="#">Radio Button</a></li>
         </ul>
         </div>
 
@@ -47,6 +63,7 @@ export default {
     }
     .navarea {
         background-color: black;
+        height: auto;
     }
 
 .menu-btn {
@@ -58,6 +75,10 @@ export default {
     .menu-btn {
         display: none;
     }
+    .navarea {
+        height: 100vh;
+    }
+
 
 }
 

@@ -56,14 +56,17 @@ export default {
 <style lang="scss" >
 
     .navbar {
-        background: red;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
+        background: #191a19;
         padding: 1rem;
+        grid-area: navLogo;
+        display: flex;
+        justify-content: space-between;
     }
     .navarea {
         background-color: black;
         height: auto;
+        overflow-y: auto;
+
     }
 
 .menu-btn {
@@ -77,6 +80,9 @@ export default {
     }
     .navarea {
         height: 100vh;
+        width: 280px;
+                position: fixed;
+        top: 0px;
     }
 
 

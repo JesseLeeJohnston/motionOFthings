@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:400,700|Ubuntu:400,500');
+
 @import '/vendor/normalize.scss';
+@import '/_variables.scss';
+@import '/_typography.scss';
 
-
-
-h1 {
-    color: red;
+body {
+  background-color: $light-bg;
 }
-
 
 .nav {
     grid-area: nav;
-    background-color: purple;
+    background-color: $dark-bg;
     color: white;
-    height: 100%;
-    overflow: auto;
+    // height: 100%;
+    // overflow: auto;
     ul {
       li {
         list-style: none;
@@ -21,7 +22,7 @@ h1 {
     }
     a {
       color: white;
-      text-decoration-line: overline;
+      text-decoration: none;
     }
   }
   .content {
@@ -50,6 +51,7 @@ h1 {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-areas: 
+        "navLogo"
         "nav"
         "content"
         ;
@@ -68,8 +70,10 @@ h1 {
   @media (min-width: 801px) { 
     .grid {
       display: grid;
-      grid-template-columns: 1fr 3fr;
+      grid-template-columns: 280px 3fr;
+      grid-template-rows: 100px 1fr;
       grid-template-areas: 
+        "navLogo content content content"
         "nav content content content"
     }
 

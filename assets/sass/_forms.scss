@@ -1,0 +1,13 @@
+.control {
+    input {
+        border: 1px solid red;
+        line-height: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+        &:focus {
+            border: 1px solid blue;
+        }
+    }
+    
+}

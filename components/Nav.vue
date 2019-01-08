@@ -1,8 +1,8 @@
 <template>
     <div class="column navarea">
         <div class="navbar">
-            <div>
-                <img src="http://placehold.it/200x70" alt="">
+            <div style="display: flex; flex-direction: column;">
+                <img class="logo" src="../assets/images/logo.svg" alt="">
             </div>
             <div class="menu-btn">
                 <a href="#" @click.prevent="isOpen = !isOpen">MENU</a>
@@ -69,8 +69,16 @@ export default {
 
     }
 
+.logo {
+    height: 1.5rem;
+}
+
 .menu-btn {
     display: flex; justify-content: center; align-items: center;
+    a {
+         color: #ffffff;
+         text-decoration: none;
+    }
 }
 
 @media (min-width: 801px) {

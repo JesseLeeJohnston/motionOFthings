@@ -6,7 +6,7 @@
 
 <div class="element-grid">
 
-            <div>
+            <div class="control">
                 <label for="text-input-1">First Input</label>
                 <input id="text-input-1" type="text">
             </div>

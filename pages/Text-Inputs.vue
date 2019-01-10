@@ -6,22 +6,22 @@
 
 <div class="element-grid">
 
-            <div class="control">
+            <div class="control the-double-007">
                 <label for="text-input-1">First Input</label>
-                <input id="text-input-1" type="text">
+                <input id="text-input-1" type="text" placeholder="Hello world"><span></span>
             </div>
 
-            <div>
-                <label for="text-input-1">Second Input</label>
-                <input id="text-input-1" type="text">
+            <div class="control the-simmons">
+                <label for="text-input-2">Second Input</label>
+                <input id="text-input-2" type="text">
             </div>
 
-            <div>
+            <div class="control">
                 <label for="text-input-1">Third Input</label>
                 <input id="text-input-1" type="text">
             </div>
 
-            <div>
+            <div class="control">
                 <label for="text-input-1">Forth Input</label>
                 <input id="text-input-1" type="text">
             </div>
@@ -81,10 +81,8 @@ export default {
 label, input {
     display: block;
 }
-.element-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
+
 .content-padding {
     padding: 1rem;
 }

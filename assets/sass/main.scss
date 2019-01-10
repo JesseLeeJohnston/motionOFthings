@@ -2,6 +2,7 @@
 
 @import '/vendor/normalize.scss';
 @import '/_variables.scss';
+@import '/_mixins.scss';
 @import '/_typography.scss';
 @import '/_forms.scss';
 
@@ -80,6 +81,22 @@ body {
 
   }
 
+
+  .element-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-row-gap: 3rem;
+}
+
+
+  @include phone {
+    .element-grid {
+     grid-template-columns: 1fr;
+     grid-gap: 1rem;
+     grid-row-gap: 3rem;
+ } 
+ }
   // @media (min-width: 600px) { 
 
   // }

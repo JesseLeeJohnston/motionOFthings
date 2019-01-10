@@ -1,13 +1,89 @@
 .control {
+
+    &.the-double-007 {
+
+        input {
+            border: 1px solid lighten(#2589bd, 40%);
+            line-height: 1rem;
+            padding: 1rem;
+            font-size: 1rem;
+            border-radius: 0.345rem;
+            border-top-left-radius: 0rem;
+            border-bottom-right-radius: 0rem;
+            transition-property: border-bottom-right-radius, border-top-left-radius, border;
+            transition-duration: 300ms, 450ms, 450ms;
+            transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94), cubic-bezier(0.86, 0, 0.07, 1), cubic-bezier(0.215, 0.610, 0.355, 1);
+            &:focus {
+              border: 1px solid 020402;
+              background: #020402;
+              color: #ffffff;
+              border-top-left-radius: 2rem;
+              border-bottom-right-radius: 2rem;
+            }
+            &::placeholder {
+              color: #020402;
+              text-transform: uppercase;
+              font-size: 0.8rem;
+            }
+            &:focus::placeholder {
+              color: #ffffff;
+            }
+
+    }
+
+    label {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+
+
+}
+
+
+&.the-simmons {
+
     input {
-        border: 1px solid red;
+        border: 1px solid lighten(#2589bd, 40%);
         line-height: 1rem;
         padding: 1rem;
         font-size: 1rem;
-        border-radius: 0.25rem;
+        border-radius: 0.345rem;
+        border-top-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        transition-property: border-bottom-right-radius, border-top-left-radius, border;
+        transition-duration: 300ms, 450ms, 450ms;
+        transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94), cubic-bezier(0.86, 0, 0.07, 1), cubic-bezier(0.215, 0.610, 0.355, 1);
         &:focus {
-            border: 1px solid blue;
+          border: 1px solid 020402;
+          background: #020402;
+          color: #ffffff;
+          border-top-left-radius: 2rem;
+          border-bottom-right-radius: 2rem;
         }
+        &::placeholder {
+          color: #020402;
+          text-transform: uppercase;
+          font-size: 0.8rem;
+        }
+        &:focus::placeholder {
+          color: #ffffff;
+        }
+
+}
+label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    &:hover {
+        font-size: 1.2rem;
     }
-    
+}
+
+}
+
+
+
 }

@@ -7,9 +7,10 @@
             line-height: 1rem;
             padding: 1rem;
             font-size: 1rem;
-            border-radius: 0.345rem;
+            
             border-top-left-radius: 0rem;
             border-bottom-right-radius: 0rem;
+            border-radius: 0.345rem;
             transition-property: border-bottom-right-radius, border-top-left-radius, border;
             transition-duration: 300ms, 450ms, 450ms;
             transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94), cubic-bezier(0.86, 0, 0.07, 1), cubic-bezier(0.215, 0.610, 0.355, 1);
@@ -45,18 +46,21 @@
 &.the-simmons {
 
     input {
-        border: 1px solid lighten(#2589bd, 40%);
+        border: 0;
+        border-top: 3px solid #ffffff;
+        border-bottom: 3px solid #2589bd;
         line-height: 1rem;
         padding: 1rem;
         font-size: 1rem;
-        border-radius: 0.345rem;
+        
         border-top-left-radius: 0rem;
         border-bottom-right-radius: 0rem;
+        border-radius: 0.345rem;
         transition-property: border-bottom-right-radius, border-top-left-radius, border;
         transition-duration: 300ms, 450ms, 450ms;
         transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94), cubic-bezier(0.86, 0, 0.07, 1), cubic-bezier(0.215, 0.610, 0.355, 1);
         &:focus {
-          border: 1px solid 020402;
+          border-top: 3px solid #2589bd;
           background: #020402;
           color: #ffffff;
           border-top-left-radius: 2rem;
@@ -84,6 +88,60 @@ label {
 
 }
 
+
+&.ralph {
+
+  input {
+      border: 0;
+      border-left: 6px solid #2589bd;
+      border-right: 6px solid #2589bd;
+      line-height: 1rem;
+      padding: 1rem;
+      font-size: 1rem;
+      
+      border-top-left-radius: 0rem;
+      border-bottom-left-radius: 0rem;
+      border-bottom-right-radius: 0rem;
+      border-top-right-radius: 0rem;
+      border-radius: 0.345rem;
+
+      transition-property: 
+        border-bottom-left-radius, border-top-left-radius, 
+        border-bottom-right-radius, border-top-right-radius, 
+        border;
+      transition-duration: 450ms, 450ms, 450ms;
+      transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      &:focus {
+        border-left: 6px solid #2589bd;
+        border-right: 6px solid #2589bd;
+        background: #020402;
+        color: #ffffff;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        border-top-right-radius: 2rem;
+      }
+      &::placeholder {
+        color: #020402;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+      }
+      &:focus::placeholder {
+        color: #ffffff;
+      }
+
+}
+label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  &:hover {
+      font-size: 1.2rem;
+  }
+}
+
+}
 
 
 }

@@ -16,9 +16,9 @@
                 <input id="text-input-2" type="text">
             </div>
 
-            <div class="control">
-                <label for="text-input-1">Third Input</label>
-                <input id="text-input-1" type="text">
+            <div class="control ralph">
+                <label for="text-input-3">Third Input</label>
+                <input id="text-input-3" type="text">
             </div>
 
             <div class="control">

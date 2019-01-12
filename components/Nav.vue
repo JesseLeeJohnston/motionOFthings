@@ -13,28 +13,11 @@
         <ul>
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="text-inputs">Text Inputs</router-link></li>
-            <li><a href="#">Hyperlinks</a></li>
-            <li><a href="#">Image Gallery</a></li>
-            <li><a href="#">Buttons</a></li>
-            <li><a href="#">Heading Text</a></li>
-            <li><a href="#">Checkbox</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
-            <li><a href="#">Radio Button</a></li>
+            <li><router-link to="checkbox">Checkbox</router-link></li>
+            <li><router-link to="buttons">Buttons</router-link></li>
+            <li><router-link to="image-gallery">Image Gallery</router-link></li>
+            <li><router-link to="typography">Typography</router-link></li>
+            <li><router-link to="text-inputs">Text Inputs</router-link></li>
         </ul>
         </div>
 

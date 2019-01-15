@@ -1,90 +1,135 @@
 <template>
+  <div class="column content">
+    <div class="content-padding">
+      <h1 class>Text Inputs</h1>
 
-    <div class="column content">
-      <div class="content-padding">
-        <h1 class="">Text Inputs</h1>
+      <div class="element-grid">
+        <div class="control the-double-007">
+          <label for="text-input-1">First Input</label>
+          <input id="text-input-1" type="text" placeholder="Hello world">
+          <span></span>
+        </div>
 
-<div class="element-grid">
+        <div class="control the-simmons">
+          <label for="text-input-2">Second Input</label>
+          <input id="text-input-2" type="text">
+        </div>
 
-            <div class="control the-double-007">
-                <label for="text-input-1">First Input</label>
-                <input id="text-input-1" type="text" placeholder="Hello world"><span></span>
-            </div>
+        <div class="control ralph">
+          <label for="text-input-3">Third Input</label>
+          <input id="text-input-3" type="text">
+        </div>
 
-            <div class="control the-simmons">
-                <label for="text-input-2">Second Input</label>
-                <input id="text-input-2" type="text">
-            </div>
-
-            <div class="control ralph">
-                <label for="text-input-3">Third Input</label>
-                <input id="text-input-3" type="text">
-            </div>
-
-            <div class="control">
-                <label for="text-input-1">Forth Input</label>
-                <input id="text-input-1" type="text">
-            </div>
-
-</div>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem iste vel harum perferendis in sed odio magni aliquid. Vitae quam quos esse nisi illum. Vero reiciendis ipsam aspernatur quis.
-</p>
-
-
-
+        <div class="copy-cat go-bottom">
+          <input id="name" name="name" type="text" required>
+          <label for="name">Your Name</label>
+        </div>
       </div>
-      
     </div>
-  
+  </div>
 </template>
 
 <script>
-
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss">
-label, input {
-    display: block;
+label,
+input {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+.content-padding {
+  padding: 1rem;
 }
 
+.copy-cat {
+  width: 320px;
+  float: left;
+  margin: 20px;
+  > div {
+    position: relative;
+    overflow: hidden;
+  }
+  input,
+  textarea {
+    width: 100%;
+    border: 2px solid gray;
+    background: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 8px 12px;
+    outline: 0;
+    &:valid {
+      // Hides the label
+      background: white;
+    }
+    &:focus {
+      border-color: #f06d06;
+    }
+    &:focus + label {
+      background: #f06d06;
+      color: white;
+      font-size: 70%;
+      padding: 1px 6px;
+      z-index: 2;
+      text-transform: uppercase;
+    }
+  }
+  label {
+    transition: // not padding background 0.2s, color 0.2s, top 0.2s, bottom
+        0.2s,
+      right 0.2s, left 0.2s;
+    position: absolute;
+    color: #999;
+    padding: 7px 6px;
+  }
+  textarea {
+    display: block;
+    resize: vertical;
+  }
+}
 
-.content-padding {
-    padding: 1rem;
+.copy-cat.go-bottom {
+  input,
+  textarea {
+    padding: 12px 12px 12px 12px;
+  }
+  label {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  input:focus,
+  textarea:focus {
+    padding: 4px 6px 20px 6px;
+  }
+  input:focus + label,
+  textarea:focus + label {
+    top: 100%;
+    margin-top: -16px;
+  }
+}
+form.go-right {
+  label {
+    top: 2px;
+    right: 100%;
+    width: 100%;
+    margin-right: -100%;
+    bottom: 2px;
+  }
+  input:focus + label,
+  textarea:focus + label {
+    right: 0;
+    margin-right: 0;
+    width: 40%;
+    padding-top: 5px;
+  }
 }
 </style>
 
